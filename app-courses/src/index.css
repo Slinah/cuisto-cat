@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "Brodies";
+    src: url("../public/brodies.ttf");
+}
+
+body {
+    background-color: rgb(199, 151, 63);
+}
