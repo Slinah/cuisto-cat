@@ -9,6 +9,6 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url(./images/background-nuage.png);
-    background-position: contain;
+    background-position: top;
     background-repeat: no-repeat;
 }

@@ -14,22 +14,22 @@ function Categorie() {
         </div>
       </div>
       <div className="flex flex-row gap-5 justify-center">
-        <button>
-          <div className="flex flex-row gap-2 items-center p-3 rounded-xl bg-[#353842]">
+        <button className="shadow-xl">
+          <div className="flex flex-row gap-2 items-center p-3 rounded-xl bg-[#353842] hover:text-black hover:bg-white text-[#8E94A4]">
             <img className="w-6" src={Burger} alt="" />
-            <p className="text-[#8E94A4]">Burger</p>
+            <p>Burger</p>
           </div>
         </button>
-        <button>
-          <div className="flex flex-row gap-2 items-center p-3 rounded-xl bg-[#353842] items-center">
+        <button className="shadow-xl">
+          <div className="flex flex-row gap-2 items-center p-3 rounded-xl bg-[#353842] text-[#8E94A4] hover:text-black hover:bg-white ">
             <img className="w-6" src={Pizza} alt="" />
-            <p className="text-[#8E94A4]">Pizza</p>
+            <p>Pizza</p>
           </div>
         </button>
-        <button>
-          <div className="flex flex-row gap-2 items-center p-3 rounded-xl bg-[#353842]">
+        <button className="shadow-xl ">
+          <div className="flex flex-row gap-2 items-center p-3 rounded-xl bg-[#353842] hover:bg-white text-[#8E94A4] hover:text-black">
             <img src={Sandwich} alt="" />
-            <p className="text-[#8E94A4]">Sandwich</p>
+            <p>Sandwich</p>
           </div>
         </button>
       </div>
