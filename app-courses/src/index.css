@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 
-@font-face {
-    font-family: "Brodies";
-    src: url("../public/brodies.ttf");
-}
-
 body {
-    background-color: rgb(199, 151, 63);
+    background-color: #2C2F38;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/background-nuage.png);
+    background-position: contain;
+    background-repeat: no-repeat;
 }
