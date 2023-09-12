@@ -39,11 +39,7 @@ function Dishes() {
             </div>
             <h4 className="text-white font-semibold">{plat.title}</h4>
             <div className="flex flex-row gap-2 justify-between px-3">
-              <div className="flex flex-row gap-1">
-                <img src={Etoile} alt="" />
-                <p className="text-[#686F82]"> {plat.notations}</p>
-              </div>
-              <div className="flex flex-row gap-1">
+              <div className="flex flex-row gap-1 justify-center w-full">
                 <img src={Time} alt={plat.time} />
                 <p className="text-[#686F82]">{plat.time}</p>
               </div>
