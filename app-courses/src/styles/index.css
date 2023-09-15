@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../styles/Gilroy-Light.otf);
+}
+
+
+body {
+    padding: 1rem;
+    background-color: #2C2F38;
+    font-family: "Gilroy";
+}
+
+
+
+h1 {
+    color: white;
+}
+p {
+    color: #686F82;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

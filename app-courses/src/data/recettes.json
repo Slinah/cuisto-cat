@@ -1,0 +1,158 @@
+{
+  "recettes": [
+    {
+      "photo":"https://i.ibb.co/KbhYBrF/spag-bolo.png",
+      "image":"data:image/png;base64, ",
+      "time" : "20 min",
+      "nom": "Spaghetti à la bolognaise",
+      "ingredients": [
+        "300 g de spaghetti",
+        "250 g de viande hachée",
+        "1 oignon",
+        "2 gousses d'ail",
+        "400 g de coulis de tomate",
+        "1 cuillère à café d'huile d'olive",
+        "Sel et poivre au goût"
+      ],
+      "instructions": [
+        "Faire cuire les spaghetti selon les instructions sur l'emballage.",
+        "Dans une poêle, chauffer l'huile d'olive à feu moyen.",
+        "Ajouter l'oignon et l'ail hachés, faire revenir pendant quelques minutes.",
+        "Ajouter la viande hachée et cuire jusqu'à ce qu'elle soit bien dorée.",
+        "Ajouter le coulis de tomate, le sel et le poivre. Laisser mijoter pendant 15-20 minutes.",
+        "Servir la sauce bolognaise sur les spaghetti cuits."
+      ]
+    },
+    {
+      "photo" : "https://i.ibb.co/Xb61N94/salade-cesar.png",
+      "time" : "20 min",
+      "nom": "Salade César",
+      "ingredients": [
+        "1 laitue romaine",
+        "200 g de poulet grillé",
+        "Croutons",
+        "Parmesan râpé",
+        "Sauce César"
+      ],
+      "instructions": [
+        "Laver et déchiqueter la laitue romaine.",
+        "Couper le poulet grillé en morceaux.",
+        "Ajouter les croutons et le parmesan râpé à la laitue.",
+        "Verser la sauce César sur la salade.",
+        "Mélanger et servir."
+      ]
+    },
+    {
+      "photo" : "https://i.ibb.co/KsD9wqJ/tacos.png",
+      "time" : "20 min",
+      "nom": "Tacos au poulet",
+      "ingredients": [
+        "4 tortillas de maïs",
+        "2 poitrines de poulet cuites et émincées",
+        "1 poivron rouge coupé en lanières",
+        "1 poivron vert coupé en lanières",
+        "1 oignon rouge émincé",
+        "Salsa",
+        "Fromage râpé",
+        "Crème fraîche"
+      ],
+      "instructions": [
+        "Chauffer les tortillas de maïs dans une poêle chaude.",
+        "Remplir chaque tortilla avec du poulet émincé, des poivrons, de l'oignon, de la salsa, du fromage et de la crème fraîche.",
+        "Replier les tortillas en forme de tacos et servir chaud."
+      ]
+    },
+    {
+      "photo" : "https://i.ibb.co/3R6dRDF/risotto.png",
+      "time" : "20 min",
+      "nom": "Riz frit aux légumes",
+      "ingredients": [
+        "2 tasses de riz cuit et refroidi",
+        "1 tasse de petits pois",
+        "1 carotte coupée en dés",
+        "1 poivron rouge coupé en dés",
+        "2 gousses d'ail hachées",
+        "2 cuillères à soupe de sauce soja",
+        "2 cuillères à soupe d'huile d'arachide",
+        "2 œufs battus"
+      ],
+      "instructions": [
+        "Chauffer l'huile d'arachide dans une grande poêle.",
+        "Ajouter l'ail haché et faire revenir pendant quelques secondes.",
+        "Ajouter les légumes (petits pois, carottes, poivron) et cuire jusqu'à ce qu'ils soient tendres.",
+        "Pousser les légumes sur un côté de la poêle et verser les œufs battus de l'autre côté.",
+        "Remuer les œufs jusqu'à ce qu'ils soient cuits et les mélanger avec les légumes.",
+        "Ajouter le riz cuit et la sauce soja, mélanger jusqu'à ce que le riz soit bien enrobé et chauffé.",
+        "Servir chaud."
+      ]
+    },
+    {
+      "photo":"https://i.ibb.co/nn9PW66/pizza-margheritas.png",
+      "time" : "20 min",
+      "nom": "Pizza Margherita",
+      "ingredients": [
+        "Pâte à pizza",
+        "1 tasse de sauce tomate",
+        "1 tasse de mozzarella râpée",
+        "Feuilles de basilic frais",
+        "Huile d'olive",
+        "Sel et poivre au goût"
+      ],
+      "instructions": [
+        "Préchauffez le four à 220°C.",
+        "Étalez la pâte à pizza sur une plaque de cuisson.",
+        "Étalez la sauce tomate sur la pâte.",
+        "Ajoutez la mozzarella râpée sur la sauce tomate.",
+        "Cuisez au four pendant 12-15 minutes ou jusqu'à ce que la croûte soit dorée et le fromage fondu.",
+        "Retirez du four, ajoutez des feuilles de basilic frais, arrosez d'huile d'olive, salez et poivrez au goût, puis servez."
+      ]
+    },
+    {
+      "photo":"https://i.ibb.co/60TR02z/tarte-pomme.png",
+      "time" : "20 min",
+      "nom": "Tarte aux pommes",
+      "ingredients": [
+        "1 pâte brisée",
+        "4 pommes pelées, évidées et tranchées",
+        "1/2 tasse de sucre",
+        "1 cuillère à café de cannelle",
+        "1/4 de tasse de farine",
+        "1/4 de tasse de beurre"
+      ],
+      "instructions": [
+        "Préchauffez le four à 200°C.",
+        "Abaissez la pâte brisée dans un moule à tarte.",
+        "Dans un grand bol, mélangez les pommes, le sucre, la cannelle et la farine.",
+        "Versez le mélange de pommes sur la pâte brisée.",
+        "Coupez le beurre en petits morceaux et répartissez-le sur les pommes.",
+        "Cuisez au four pendant 45 minutes ou jusqu'à ce que la croûte soit dorée et les pommes tendres.",
+        "Laissez refroidir avant de servir."
+      ]
+    },
+    {
+      "photo": "https://i.ibb.co/jTtTff0/risotto-champignon.png",
+      "time" : "20 min",
+      "nom": "Risotto aux champignons",
+      "ingredients": [
+        "1 tasse de riz Arborio",
+        "250 g de champignons tranchés",
+        "1 oignon haché",
+        "2 gousses d'ail hachées",
+        "4 tasses de bouillon de légumes chaud",
+        "1/2 tasse de vin blanc sec",
+        "2 cuillères à soupe d'huile d'olive",
+        "Sel et poivre au goût"
+      ],
+      "instructions": [
+        "Dans une grande poêle, chauffez l'huile d'olive à feu moyen.",
+        "Ajoutez l'oignon et l'ail hachés, faites revenir pendant quelques minutes jusqu'à ce qu'ils soient translucides.",
+        "Ajoutez les champignons et continuez à faire cuire jusqu'à ce qu'ils soient dorés.",
+        "Ajoutez le riz Arborio et remuez pour bien l'enrober d'huile.",
+        "Versez le vin blanc sec et remuez jusqu'à ce qu'il soit absorbé par le riz.",
+        "Commencez à ajouter le bouillon de légumes chaud, une louche à la fois, en remuant fréquemment jusqu'à ce que le liquide soit absorbé avant d'ajouter plus de bouillon.",
+        "Répétez cette étape jusqu'à ce que le riz soit crémeux et cuit al dente.",
+        "Salez et poivrez au goût, puis servez chaud."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+input {
+  width: 100%;
+  padding: 1.5em 2em;
+  border-radius: 1em;
+  background-color: #252830;
+  border-color: transparent;
+  
+}
+
+
+input::placeholder{
+    color : #686F82;
+    font-size : 0.875rem;
+}
+
+#search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+.input-filter {
+    position: absolute;
+    right : 1em;
+}
+
+}

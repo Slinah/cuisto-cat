@@ -1,0 +1,51 @@
+.categories-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-sub-ctn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+h3 {
+    color: white;
+}
+
+.paragraph-categories {
+    color : white;
+}
+
+.categories-btn-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.categories-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0.6rem;
+    gap: 0.3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #353842;
+
+            p {
+                    color: white;
+                }
+}
+        
