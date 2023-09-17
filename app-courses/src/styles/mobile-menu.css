@@ -1,0 +1,14 @@
+.mobile-menu {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    backdrop-filter: blur(20px);
+
+}

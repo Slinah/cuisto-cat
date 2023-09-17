@@ -8,6 +8,8 @@ body {
     padding: 1rem;
     background-color: #2C2F38;
     font-family: "Gilroy";
+    position: relative;
+    padding-bottom: 6em;
 }
 
 
