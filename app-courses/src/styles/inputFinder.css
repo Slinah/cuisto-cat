@@ -4,24 +4,24 @@ input {
   border-radius: 1em;
   background-color: #252830;
   border-color: transparent;
-  
+  outline-color: white;
+  color: white;
 }
 
-
-input::placeholder{
-    color : #686F82;
-    font-size : 0.875rem;
+input::placeholder {
+  color: #686f82;
+  font-size: 0.875rem;
+  color: white;
 }
 
 #search-input {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
 
-.input-filter {
+  .input-filter {
     position: absolute;
-    right : 1em;
-}
-
+    right: 1em;
+  }
 }

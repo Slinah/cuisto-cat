@@ -1,32 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ArrowCategories from "../images/arrowCategories.svg";
 import "../styles/categories.css";
-import BurgerIcon from "../images/burger.svg";
-import SandwichIcon from "../images/sandwich.svg";
+
+// Importez votre structure JSON des catégories
+import CategoriesData from "../data/categories.json";
 
 function Categories() {
+  const [searchCategories, setSearchCategories] = useState([]);
+  const [showAllCategories, setShowAllCategories] = useState(false);
+
+  useEffect(() => {
+    setSearchCategories(CategoriesData.categories.slice(0, 3));
+  }, []);
+
+  const toggleCategories = () => {
+    if (showAllCategories) {
+      setSearchCategories(CategoriesData.categories.slice(0, 3));
+    } else {
+      setSearchCategories(CategoriesData.categories);
+    }
+    setShowAllCategories(!showAllCategories);
+  };
+
   return (
     <div className="categories-container">
       <div className="categories-ctn">
         <h3>Categories</h3>
-        <div className="categories-sub-ctn">
-          <p className="paragraph-categories">All</p>
+        <div onClick={toggleCategories} className="categories-sub-ctn">
+          <p className="paragraph-categories">
+            {showAllCategories ? "All" : "All"}
+          </p>
           <img src={ArrowCategories} alt="" />
         </div>
       </div>
       <div className="categories-btn-ctn">
-        <button className="categories-btn">
-          <img src={BurgerIcon} alt="" />
-          <p>Burger</p>
-        </button>
-        <button className="categories-btn">
-          <img src={BurgerIcon} alt="" />
-          <p>Pizza</p>
-        </button>
-        <button className="categories-btn">
-          <img src={SandwichIcon} alt="" />
-          <p>Sandwich</p>
-        </button>
+        <div className="ctn-map">
+          {searchCategories.map((category, index) => (
+            <button className="categories-btn" key={index}>
+              {category}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

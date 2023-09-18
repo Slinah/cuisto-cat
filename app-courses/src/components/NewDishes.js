@@ -3,25 +3,32 @@ import ArrowCategories from "../images/arrowCategories.svg";
 import recettesData from "../data/recettes.json";
 import "../styles/dishes-ctn.css";
 import TimeIcon from "../imagesplats/time.svg";
+import InputFinder from "../components/inputFinder";
 
 function NewDishes() {
   const [dataRecette, setDataRecette] = useState([]);
+  const [searchValue, setSearchValue] = useState(""); // État pour stocker la valeur de recherche
 
   useEffect(() => {
     setDataRecette(recettesData.recettes);
   }, []);
 
+  // Fonction de filtrage
+  const filterRecipes = () => {
+    return dataRecette.filter((recette) =>
+      recette.nom.toLowerCase().includes(searchValue.toLowerCase())
+    );
+  };
+
   return (
     <div className="dishes-ctn">
       <div className="categories-ctn">
         <h3>Dishes</h3>
-        <div className="categories-sub-ctn">
-          <p className="paragraph-categories">All</p>
-          <img src={ArrowCategories} alt="" />
-        </div>
       </div>
+      <InputFinder setSearchValue={setSearchValue} />
+      {/* Passez setSearchValue en tant que prop */}
       <div className="data-ctn">
-        {dataRecette.map((recette, index) => (
+        {filterRecipes().map((recette, index) => (
           <div className="data-card" key={index}>
             <img className="img-card" src={recette.photo} alt="" />
             <h4 className="card-title">{recette.nom}</h4>

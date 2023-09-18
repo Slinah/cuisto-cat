@@ -10,6 +10,13 @@
     flex-direction: row;
     align-items: center;
     gap: 0.7rem;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.categories-sub-ctn:hover {
+    background-color: #db9f43;
+    cursor: pointer;
 }
 
 h3 {
@@ -43,9 +50,20 @@ h3 {
     border-radius: 1rem;
     border: none;
     background-color: #353842;
-
-            p {
-                    color: white;
-                }
+    color: white;
+    /* Couleur de texte de base */
+    transition: color 0.3s;
+    /* Ajoute une transition pour une animation fluide */
 }
         
+.ctn-map{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 0.5em;
+    animation: fadeInOut 1s ease-in-out;
+}
+.categories-btn:hover {
+    color: #db9f43;
+    /* Couleur de texte au survol */
+}

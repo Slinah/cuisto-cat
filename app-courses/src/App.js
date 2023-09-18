@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <InputFinder />
       <Categories />
       <NewDishes />
       <MobileMenu />

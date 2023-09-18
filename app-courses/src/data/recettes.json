@@ -2,6 +2,7 @@
   "recettes": [
     {
       "photo":"https://i.ibb.co/KbhYBrF/spag-bolo.png",
+      "categorie": "Pâtes",
       "image":"data:image/png;base64, ",
       "time" : "20 min",
       "nom": "Spaghetti à la bolognaise",
@@ -25,6 +26,7 @@
     },
     {
       "photo" : "https://i.ibb.co/Xb61N94/salade-cesar.png",
+      "categorie": "Salades",
       "time" : "20 min",
       "nom": "Salade César",
       "ingredients": [
@@ -44,6 +46,7 @@
     },
     {
       "photo" : "https://i.ibb.co/KsD9wqJ/tacos.png",
+      "categorie": "Sandwich",
       "time" : "20 min",
       "nom": "Tacos au poulet",
       "ingredients": [
@@ -64,6 +67,7 @@
     },
     {
       "photo" : "https://i.ibb.co/3R6dRDF/risotto.png",
+      "categorie": "Plats",
       "time" : "20 min",
       "nom": "Riz frit aux légumes",
       "ingredients": [
@@ -88,6 +92,7 @@
     },
     {
       "photo":"https://i.ibb.co/nn9PW66/pizza-margheritas.png",
+      "categorie": "Pizza",
       "time" : "20 min",
       "nom": "Pizza Margherita",
       "ingredients": [
@@ -109,6 +114,7 @@
     },
     {
       "photo":"https://i.ibb.co/60TR02z/tarte-pomme.png",
+      "categorie": "Desserts",
       "time" : "20 min",
       "nom": "Tarte aux pommes",
       "ingredients": [
@@ -131,6 +137,7 @@
     },
     {
       "photo": "https://i.ibb.co/jTtTff0/risotto-champignon.png",
+      "categorie": "Plats",
       "time" : "20 min",
       "nom": "Risotto aux champignons",
       "ingredients": [
